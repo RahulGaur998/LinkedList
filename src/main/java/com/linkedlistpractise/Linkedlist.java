@@ -64,7 +64,7 @@ public class Linkedlist {
         Node temp;
         temp = head;
         if (head == null) {
-
+            System.out.println("NO list exists!!");
         } else {
 
             for (int i = 0; i < index - 1; i++) {

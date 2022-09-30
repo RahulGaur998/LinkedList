@@ -16,7 +16,8 @@ public class App {
         // list.insertNode(30);
         list.insertAtStart(56);
         list.insertAtIndex(1, 30);
-        list.deleteNode(0);
+        // list.deleteNode(0);
+        list.deleteNode(2);
         list.showLinkedList();
     }
 }
