@@ -16,9 +16,11 @@ public class App {
         // list.insertNode(30);
         list.insertAtStart(56);
         list.insertAtIndex(1, 30);
+        list.insertAtIndex(2, 40);
         // list.deleteNode(0);
-        list.deleteNode(2);
+        // list.deleteNode(2);
         list.showLinkedList();
         list.searchNodeWithKey(30);
+        list.sizeOfLinkedList();
     }
 }
