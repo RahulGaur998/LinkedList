@@ -19,5 +19,6 @@ public class App {
         // list.deleteNode(0);
         list.deleteNode(2);
         list.showLinkedList();
+        list.searchNodeWithKey(30);
     }
 }
