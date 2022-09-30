@@ -13,8 +13,9 @@ public class App {
         // list.insertNode(30);
         // list.insertNode(70);
         list.insertAtStart(70);
-        list.insertAtStart(30);
+        // list.insertNode(30);
         list.insertAtStart(56);
+        list.insertAtIndex(1, 30);
         list.showLinkedList();
     }
 }
