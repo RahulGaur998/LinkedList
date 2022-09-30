@@ -57,7 +57,31 @@ public class Linkedlist {
             temp = temp.next;
         }
         System.out.println(temp.data);
-
     }
 
+    void deleteNode(int index) {
+        Node node;
+        Node temp;
+        temp = head;
+        if (head == null) {
+
+        } else {
+
+            for (int i = 0; i < index - 1; i++) {
+                temp = temp.next;
+            }
+            if (index == 0) {
+
+                head = head.next;
+                temp = null;
+
+            } else {
+                node = temp.next;
+                temp.next = node.next;
+                node = null;
+            }
+
+        }
+
+    }
 }
