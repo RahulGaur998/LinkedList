@@ -22,5 +22,8 @@ public class App {
         list.showLinkedList();
         list.searchNodeWithKey(30);
         list.sizeOfLinkedList();
+        list.orderedLinkedList();
+        list.showLinkedList();
+
     }
 }
